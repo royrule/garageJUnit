@@ -15,18 +15,18 @@ import org.mockito.runners.MockitoJUnitRunner;
 @RunWith(MockitoJUnitRunner.class)
 public class GarajeExceptionTest {
 	
-//	@Mock
-//	private Logger loggerMock;
-//	
-//	GarajeException expectedGarajeException;
-//	private Exception expectedException;
-//	
-//	@Before
-//	public void init() {
-//		expectedException = new Exception();
-//		expectedGarajeException = new GarajeException(expectedException);
-//	}
-	/*
+	@Mock
+	private Logger loggerMock;
+	
+	GarajeException expectedGarajeException;
+	private Exception expectedException;
+	
+	@Before
+	public void init() {
+		expectedException = new Exception();
+		expectedGarajeException = new GarajeException(expectedException);
+	}
+	
 	@Test
 	public void testGestionaExcepcion() {
 		//Arrange
@@ -35,7 +35,7 @@ public class GarajeExceptionTest {
 		expectedGarajeException.gestionaExcepcion();
 		// Assert
 		Mockito.verify(this.loggerMock, Mockito.times(1)).error(expectedMessage);
-	}*/
+	}
 
 //	@TEST
 //	PUBLIC VOID TESTGARAJEEXCEPTION() {
