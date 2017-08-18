@@ -31,7 +31,7 @@ public class BookingDAOJPAImplTest {
 	@Before
 	public void init() {
 		this.bookingDAO = new BookingDAOJPAImpl(entityManagerMock);
-	}
+	}//adsokaldkhnskjhwsl
 
 	@Test
 	public void testCreate() {
