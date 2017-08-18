@@ -27,7 +27,7 @@ public class GarajeExceptionTest {
 		expectedGarajeException = new GarajeException(expectedException);
 	}
 	
-	@Test
+/*	@Test
 	public void testGestionaExcepcion() {
 		//Arrange
 		String expectedMessage = "Ha ocurrido una excepcion del tipo : " + this.expectedException.getClass() +" por este motivo: " + this.expectedException.getLocalizedMessage();
@@ -35,7 +35,7 @@ public class GarajeExceptionTest {
 		expectedGarajeException.gestionaExcepcion();
 		// Assert
 		Mockito.verify(this.loggerMock, Mockito.times(1)).error(expectedMessage);
-	}
+	}*/
 
 //	@TEST
 //	PUBLIC VOID TESTGARAJEEXCEPTION() {
