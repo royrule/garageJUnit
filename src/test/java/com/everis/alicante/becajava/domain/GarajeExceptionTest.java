@@ -43,7 +43,7 @@ public class GarajeExceptionTest {
 		Assert.assertNotNull(expectedException);
 	}
 
-	@Test
+	/*@Test
 	public void testAdaptaFormatoTxt() {
 		// Arrange
 		String expectedTmp = "";
@@ -56,6 +56,6 @@ public class GarajeExceptionTest {
 		String result = expectedGarajeException.adaptaFormatoTxt();
 		// Assert
 		Assert.assertEquals(expectedTmp, result);
-	}
+	}*/
 
 }
