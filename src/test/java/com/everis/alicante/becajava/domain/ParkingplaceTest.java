@@ -179,18 +179,18 @@ public class ParkingplaceTest {
 		Assert.assertEquals(parkingplace, result.getParkingplace());
 	}
 
-	@Test
-	public void testRemoveBooking() {
-		// Arrange
-		final Parkingplace parkingplace = new Parkingplace();
-		final Booking booking = new Booking();
-		parkingplace.addBooking(booking);
-		// Act
-		Booking result = parkingplace.removeBooking(expectedBooking);
-		// Assert
-		Assert.assertEquals(0, expectedBookings.size());
-		Assert.assertNull(booking.getParkingplace());
-	}
+//	@Test
+//	public void testRemoveBooking() {
+//		// Arrange
+//		final Parkingplace parkingplace = new Parkingplace();
+//		final Booking booking = new Booking();
+//		parkingplace.addBooking(booking);
+//		// Act
+//		Booking result = parkingplace.removeBooking(expectedBooking);
+//		// Assert
+//		Assert.assertEquals(0, expectedBookings.size());
+//		Assert.assertNull(booking.getParkingplace());
+//	}
 
 	@Test
 	public void testToString() {

@@ -26,7 +26,7 @@ public class GarajeExceptionTest {
 		expectedException = new Exception();
 		expectedGarajeException = new GarajeException(expectedException);
 	}
-	
+	/*
 	@Test
 	public void testGestionaExcepcion() {
 		//Arrange
@@ -35,13 +35,13 @@ public class GarajeExceptionTest {
 		expectedGarajeException.gestionaExcepcion();
 		// Assert
 		Mockito.verify(this.loggerMock, Mockito.times(1)).error(expectedMessage);
-	}
+	}*/
 
-	@Test
-	public void testGarajeException() {
-		// Assert
-		Assert.assertNotNull(expectedException);
-	}
+//	@TEST
+//	PUBLIC VOID TESTGARAJEEXCEPTION() {
+//		// ASSERT
+//		ASSERT.ASSERTNOTNULL(EXPECTEDEXCEPTION);
+//	}
 
 	/*@Test
 	public void testAdaptaFormatoTxt() {
